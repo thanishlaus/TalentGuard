@@ -1,0 +1,854 @@
+{
+  "employees": 1470,
+  "attrition_rate": 16.12,
+  "hr_capacity": 50,
+  "roc_auc": 0.7884,
+  "departments": [
+    {
+      "Department": "Human Resources",
+      "Employees": 63,
+      "AttritionRate": 19.047619047619047,
+      "AverageRisk": 0.3196555729143201,
+      "HighRisk": 12
+    },
+    {
+      "Department": "Research & Development",
+      "Employees": 961,
+      "AttritionRate": 13.839750260145681,
+      "AverageRisk": 0.26135264199712477,
+      "HighRisk": 127
+    },
+    {
+      "Department": "Sales",
+      "Employees": 446,
+      "AttritionRate": 20.62780269058296,
+      "AverageRisk": 0.33993957975045164,
+      "HighRisk": 88
+    }
+  ],
+  "top50": [
+    {
+      "EmployeeNumber": 622,
+      "JobRole": "Laboratory Technician",
+      "Department": "Research & Development",
+      "OverTime": "Yes",
+      "JobSatisfaction": 4,
+      "WorkLifeBalance": 1,
+      "MonthlyIncome": 2340,
+      "AttritionRisk": 0.998477001966324,
+      "RiskRank": 1,
+      "RiskReasons": [
+        "Frequent overtime",
+        "Poor work-life balance",
+        "Below-median income"
+      ],
+      "Recommendation": "Reduce overtime and review workload allocation"
+    },
+    {
+      "EmployeeNumber": 1624,
+      "JobRole": "Sales Representative",
+      "Department": "Sales",
+      "OverTime": "Yes",
+      "JobSatisfaction": 4,
+      "WorkLifeBalance": 4,
+      "MonthlyIncome": 1569,
+      "AttritionRisk": 0.995565055232802,
+      "RiskRank": 2,
+      "RiskReasons": [
+        "Frequent overtime",
+        "Below-median income"
+      ],
+      "Recommendation": "Reduce overtime and review workload allocation"
+    },
+    {
+      "EmployeeNumber": 167,
+      "JobRole": "Sales Representative",
+      "Department": "Sales",
+      "OverTime": "Yes",
+      "JobSatisfaction": 3,
+      "WorkLifeBalance": 2,
+      "MonthlyIncome": 1675,
+      "AttritionRisk": 0.9917755693534764,
+      "RiskRank": 3,
+      "RiskReasons": [
+        "Frequent overtime",
+        "Poor work-life balance",
+        "Below-median income"
+      ],
+      "Recommendation": "Reduce overtime and review workload allocation"
+    },
+    {
+      "EmployeeNumber": 137,
+      "JobRole": "Laboratory Technician",
+      "Department": "Research & Development",
+      "OverTime": "Yes",
+      "JobSatisfaction": 4,
+      "WorkLifeBalance": 3,
+      "MonthlyIncome": 2926,
+      "AttritionRisk": 0.989209025258732,
+      "RiskRank": 4,
+      "RiskReasons": [
+        "Frequent overtime",
+        "Below-median income"
+      ],
+      "Recommendation": "Reduce overtime and review workload allocation"
+    },
+    {
+      "EmployeeNumber": 1868,
+      "JobRole": "Research Scientist",
+      "Department": "Research & Development",
+      "OverTime": "Yes",
+      "JobSatisfaction": 4,
+      "WorkLifeBalance": 2,
+      "MonthlyIncome": 2439,
+      "AttritionRisk": 0.9889189344144076,
+      "RiskRank": 5,
+      "RiskReasons": [
+        "Frequent overtime",
+        "Poor work-life balance",
+        "Below-median income"
+      ],
+      "Recommendation": "Reduce overtime and review workload allocation"
+    },
+    {
+      "EmployeeNumber": 1427,
+      "JobRole": "Sales Representative",
+      "Department": "Sales",
+      "OverTime": "No",
+      "JobSatisfaction": 3,
+      "WorkLifeBalance": 3,
+      "MonthlyIncome": 1359,
+      "AttritionRisk": 0.9870496700385849,
+      "RiskRank": 6,
+      "RiskReasons": [
+        "Below-median income"
+      ],
+      "Recommendation": "Review compensation and career progression"
+    },
+    {
+      "EmployeeNumber": 614,
+      "JobRole": "Sales Representative",
+      "Department": "Sales",
+      "OverTime": "Yes",
+      "JobSatisfaction": 2,
+      "WorkLifeBalance": 3,
+      "MonthlyIncome": 1878,
+      "AttritionRisk": 0.9864106832090995,
+      "RiskRank": 7,
+      "RiskReasons": [
+        "Frequent overtime",
+        "Low job satisfaction",
+        "Below-median income"
+      ],
+      "Recommendation": "Reduce overtime and review workload allocation"
+    },
+    {
+      "EmployeeNumber": 1783,
+      "JobRole": "Laboratory Technician",
+      "Department": "Research & Development",
+      "OverTime": "Yes",
+      "JobSatisfaction": 1,
+      "WorkLifeBalance": 3,
+      "MonthlyIncome": 2398,
+      "AttritionRisk": 0.9856004514697996,
+      "RiskRank": 8,
+      "RiskReasons": [
+        "Frequent overtime",
+        "Low job satisfaction",
+        "Below-median income"
+      ],
+      "Recommendation": "Reduce overtime and review workload allocation"
+    },
+    {
+      "EmployeeNumber": 1944,
+      "JobRole": "Human Resources",
+      "Department": "Human Resources",
+      "OverTime": "No",
+      "JobSatisfaction": 2,
+      "WorkLifeBalance": 3,
+      "MonthlyIncome": 2863,
+      "AttritionRisk": 0.9834276634563185,
+      "RiskRank": 9,
+      "RiskReasons": [
+        "Low job satisfaction",
+        "Below-median income"
+      ],
+      "Recommendation": "Schedule a retention discussion"
+    },
+    {
+      "EmployeeNumber": 243,
+      "JobRole": "Laboratory Technician",
+      "Department": "Research & Development",
+      "OverTime": "No",
+      "JobSatisfaction": 4,
+      "WorkLifeBalance": 2,
+      "MonthlyIncome": 1102,
+      "AttritionRisk": 0.9831251921795121,
+      "RiskRank": 10,
+      "RiskReasons": [
+        "Poor work-life balance",
+        "Below-median income"
+      ],
+      "Recommendation": "Offer flexible scheduling and workload review"
+    },
+    {
+      "EmployeeNumber": 952,
+      "JobRole": "Sales Representative",
+      "Department": "Sales",
+      "OverTime": "Yes",
+      "JobSatisfaction": 2,
+      "WorkLifeBalance": 3,
+      "MonthlyIncome": 2413,
+      "AttritionRisk": 0.9803052368401095,
+      "RiskRank": 11,
+      "RiskReasons": [
+        "Frequent overtime",
+        "Low job satisfaction",
+        "Below-median income"
+      ],
+      "Recommendation": "Reduce overtime and review workload allocation"
+    },
+    {
+      "EmployeeNumber": 811,
+      "JobRole": "Laboratory Technician",
+      "Department": "Research & Development",
+      "OverTime": "Yes",
+      "JobSatisfaction": 1,
+      "WorkLifeBalance": 3,
+      "MonthlyIncome": 1601,
+      "AttritionRisk": 0.9794209979797192,
+      "RiskRank": 12,
+      "RiskReasons": [
+        "Frequent overtime",
+        "Low job satisfaction",
+        "Below-median income"
+      ],
+      "Recommendation": "Reduce overtime and review workload allocation"
+    },
+    {
+      "EmployeeNumber": 1494,
+      "JobRole": "Laboratory Technician",
+      "Department": "Research & Development",
+      "OverTime": "Yes",
+      "JobSatisfaction": 1,
+      "WorkLifeBalance": 2,
+      "MonthlyIncome": 3172,
+      "AttritionRisk": 0.9793644308473862,
+      "RiskRank": 13,
+      "RiskReasons": [
+        "Frequent overtime",
+        "Low job satisfaction",
+        "Poor work-life balance"
+      ],
+      "Recommendation": "Reduce overtime and review workload allocation"
+    },
+    {
+      "EmployeeNumber": 816,
+      "JobRole": "Laboratory Technician",
+      "Department": "Research & Development",
+      "OverTime": "Yes",
+      "JobSatisfaction": 1,
+      "WorkLifeBalance": 3,
+      "MonthlyIncome": 2319,
+      "AttritionRisk": 0.9792100148037229,
+      "RiskRank": 14,
+      "RiskReasons": [
+        "Frequent overtime",
+        "Low job satisfaction",
+        "Below-median income"
+      ],
+      "Recommendation": "Reduce overtime and review workload allocation"
+    },
+    {
+      "EmployeeNumber": 1248,
+      "JobRole": "Research Scientist",
+      "Department": "Research & Development",
+      "OverTime": "Yes",
+      "JobSatisfaction": 2,
+      "WorkLifeBalance": 4,
+      "MonthlyIncome": 1859,
+      "AttritionRisk": 0.9780123274399366,
+      "RiskRank": 15,
+      "RiskReasons": [
+        "Frequent overtime",
+        "Low job satisfaction",
+        "Below-median income"
+      ],
+      "Recommendation": "Reduce overtime and review workload allocation"
+    },
+    {
+      "EmployeeNumber": 1016,
+      "JobRole": "Research Scientist",
+      "Department": "Research & Development",
+      "OverTime": "Yes",
+      "JobSatisfaction": 1,
+      "WorkLifeBalance": 3,
+      "MonthlyIncome": 2600,
+      "AttritionRisk": 0.9777816457174352,
+      "RiskRank": 16,
+      "RiskReasons": [
+        "Frequent overtime",
+        "Low job satisfaction",
+        "Below-median income"
+      ],
+      "Recommendation": "Reduce overtime and review workload allocation"
+    },
+    {
+      "EmployeeNumber": 514,
+      "JobRole": "Research Scientist",
+      "Department": "Research & Development",
+      "OverTime": "Yes",
+      "JobSatisfaction": 4,
+      "WorkLifeBalance": 3,
+      "MonthlyIncome": 2285,
+      "AttritionRisk": 0.9776514130640194,
+      "RiskRank": 17,
+      "RiskReasons": [
+        "Frequent overtime",
+        "Below-median income"
+      ],
+      "Recommendation": "Reduce overtime and review workload allocation"
+    },
+    {
+      "EmployeeNumber": 235,
+      "JobRole": "Sales Representative",
+      "Department": "Sales",
+      "OverTime": "No",
+      "JobSatisfaction": 1,
+      "WorkLifeBalance": 4,
+      "MonthlyIncome": 2325,
+      "AttritionRisk": 0.9773623791785557,
+      "RiskRank": 18,
+      "RiskReasons": [
+        "Low job satisfaction",
+        "Below-median income"
+      ],
+      "Recommendation": "Schedule a retention discussion"
+    },
+    {
+      "EmployeeNumber": 2023,
+      "JobRole": "Sales Representative",
+      "Department": "Sales",
+      "OverTime": "No",
+      "JobSatisfaction": 1,
+      "WorkLifeBalance": 2,
+      "MonthlyIncome": 1790,
+      "AttritionRisk": 0.9766039846331829,
+      "RiskRank": 19,
+      "RiskReasons": [
+        "Low job satisfaction",
+        "Poor work-life balance",
+        "Below-median income"
+      ],
+      "Recommendation": "Schedule a retention discussion"
+    },
+    {
+      "EmployeeNumber": 1878,
+      "JobRole": "Research Scientist",
+      "Department": "Research & Development",
+      "OverTime": "Yes",
+      "JobSatisfaction": 2,
+      "WorkLifeBalance": 3,
+      "MonthlyIncome": 2472,
+      "AttritionRisk": 0.9758828239104044,
+      "RiskRank": 20,
+      "RiskReasons": [
+        "Frequent overtime",
+        "Low job satisfaction",
+        "Below-median income"
+      ],
+      "Recommendation": "Reduce overtime and review workload allocation"
+    },
+    {
+      "EmployeeNumber": 911,
+      "JobRole": "Laboratory Technician",
+      "Department": "Research & Development",
+      "OverTime": "Yes",
+      "JobSatisfaction": 4,
+      "WorkLifeBalance": 1,
+      "MonthlyIncome": 2795,
+      "AttritionRisk": 0.9758612508920197,
+      "RiskRank": 21,
+      "RiskReasons": [
+        "Frequent overtime",
+        "Poor work-life balance",
+        "Below-median income"
+      ],
+      "Recommendation": "Reduce overtime and review workload allocation"
+    },
+    {
+      "EmployeeNumber": 485,
+      "JobRole": "Sales Representative",
+      "Department": "Sales",
+      "OverTime": "Yes",
+      "JobSatisfaction": 3,
+      "WorkLifeBalance": 3,
+      "MonthlyIncome": 2851,
+      "AttritionRisk": 0.9728431814559565,
+      "RiskRank": 22,
+      "RiskReasons": [
+        "Frequent overtime",
+        "Below-median income"
+      ],
+      "Recommendation": "Reduce overtime and review workload allocation"
+    },
+    {
+      "EmployeeNumber": 1928,
+      "JobRole": "Sales Representative",
+      "Department": "Sales",
+      "OverTime": "No",
+      "JobSatisfaction": 1,
+      "WorkLifeBalance": 3,
+      "MonthlyIncome": 1091,
+      "AttritionRisk": 0.9727474950553598,
+      "RiskRank": 23,
+      "RiskReasons": [
+        "Low job satisfaction",
+        "Below-median income"
+      ],
+      "Recommendation": "Schedule a retention discussion"
+    },
+    {
+      "EmployeeNumber": 1569,
+      "JobRole": "Laboratory Technician",
+      "Department": "Research & Development",
+      "OverTime": "Yes",
+      "JobSatisfaction": 1,
+      "WorkLifeBalance": 3,
+      "MonthlyIncome": 2074,
+      "AttritionRisk": 0.9722679723757015,
+      "RiskRank": 24,
+      "RiskReasons": [
+        "Frequent overtime",
+        "Low job satisfaction",
+        "Below-median income"
+      ],
+      "Recommendation": "Reduce overtime and review workload allocation"
+    },
+    {
+      "EmployeeNumber": 1844,
+      "JobRole": "Human Resources",
+      "Department": "Human Resources",
+      "OverTime": "Yes",
+      "JobSatisfaction": 1,
+      "WorkLifeBalance": 3,
+      "MonthlyIncome": 2335,
+      "AttritionRisk": 0.9719869795817442,
+      "RiskRank": 25,
+      "RiskReasons": [
+        "Frequent overtime",
+        "Low job satisfaction",
+        "Below-median income"
+      ],
+      "Recommendation": "Reduce overtime and review workload allocation"
+    },
+    {
+      "EmployeeNumber": 1108,
+      "JobRole": "Research Scientist",
+      "Department": "Research & Development",
+      "OverTime": "Yes",
+      "JobSatisfaction": 2,
+      "WorkLifeBalance": 3,
+      "MonthlyIncome": 2313,
+      "AttritionRisk": 0.9688284601371987,
+      "RiskRank": 26,
+      "RiskReasons": [
+        "Frequent overtime",
+        "Low job satisfaction",
+        "Below-median income"
+      ],
+      "Recommendation": "Reduce overtime and review workload allocation"
+    },
+    {
+      "EmployeeNumber": 405,
+      "JobRole": "Laboratory Technician",
+      "Department": "Research & Development",
+      "OverTime": "No",
+      "JobSatisfaction": 3,
+      "WorkLifeBalance": 3,
+      "MonthlyIncome": 1420,
+      "AttritionRisk": 0.9685234537072972,
+      "RiskRank": 27,
+      "RiskReasons": [
+        "Below-median income"
+      ],
+      "Recommendation": "Review compensation and career progression"
+    },
+    {
+      "EmployeeNumber": 1604,
+      "JobRole": "Laboratory Technician",
+      "Department": "Research & Development",
+      "OverTime": "Yes",
+      "JobSatisfaction": 2,
+      "WorkLifeBalance": 3,
+      "MonthlyIncome": 2408,
+      "AttritionRisk": 0.9678490499579863,
+      "RiskRank": 28,
+      "RiskReasons": [
+        "Frequent overtime",
+        "Low job satisfaction",
+        "Below-median income"
+      ],
+      "Recommendation": "Reduce overtime and review workload allocation"
+    },
+    {
+      "EmployeeNumber": 1175,
+      "JobRole": "Laboratory Technician",
+      "Department": "Research & Development",
+      "OverTime": "Yes",
+      "JobSatisfaction": 4,
+      "WorkLifeBalance": 2,
+      "MonthlyIncome": 2515,
+      "AttritionRisk": 0.9677802326819833,
+      "RiskRank": 29,
+      "RiskReasons": [
+        "Frequent overtime",
+        "Poor work-life balance",
+        "Below-median income"
+      ],
+      "Recommendation": "Reduce overtime and review workload allocation"
+    },
+    {
+      "EmployeeNumber": 741,
+      "JobRole": "Research Scientist",
+      "Department": "Research & Development",
+      "OverTime": "Yes",
+      "JobSatisfaction": 2,
+      "WorkLifeBalance": 3,
+      "MonthlyIncome": 2216,
+      "AttritionRisk": 0.9669345440343009,
+      "RiskRank": 30,
+      "RiskReasons": [
+        "Frequent overtime",
+        "Low job satisfaction",
+        "Below-median income"
+      ],
+      "Recommendation": "Reduce overtime and review workload allocation"
+    },
+    {
+      "EmployeeNumber": 1876,
+      "JobRole": "Sales Representative",
+      "Department": "Sales",
+      "OverTime": "No",
+      "JobSatisfaction": 4,
+      "WorkLifeBalance": 2,
+      "MonthlyIncome": 1081,
+      "AttritionRisk": 0.9663173444955955,
+      "RiskRank": 31,
+      "RiskReasons": [
+        "Poor work-life balance",
+        "Below-median income"
+      ],
+      "Recommendation": "Offer flexible scheduling and workload review"
+    },
+    {
+      "EmployeeNumber": 1079,
+      "JobRole": "Laboratory Technician",
+      "Department": "Research & Development",
+      "OverTime": "No",
+      "JobSatisfaction": 1,
+      "WorkLifeBalance": 2,
+      "MonthlyIncome": 1416,
+      "AttritionRisk": 0.9653860940830983,
+      "RiskRank": 32,
+      "RiskReasons": [
+        "Low job satisfaction",
+        "Poor work-life balance",
+        "Below-median income"
+      ],
+      "Recommendation": "Schedule a retention discussion"
+    },
+    {
+      "EmployeeNumber": 648,
+      "JobRole": "Sales Representative",
+      "Department": "Sales",
+      "OverTime": "No",
+      "JobSatisfaction": 1,
+      "WorkLifeBalance": 4,
+      "MonthlyIncome": 2033,
+      "AttritionRisk": 0.9653161769483849,
+      "RiskRank": 33,
+      "RiskReasons": [
+        "Low job satisfaction",
+        "Below-median income"
+      ],
+      "Recommendation": "Schedule a retention discussion"
+    },
+    {
+      "EmployeeNumber": 1780,
+      "JobRole": "Sales Representative",
+      "Department": "Sales",
+      "OverTime": "No",
+      "JobSatisfaction": 2,
+      "WorkLifeBalance": 3,
+      "MonthlyIncome": 2679,
+      "AttritionRisk": 0.9649897181432804,
+      "RiskRank": 34,
+      "RiskReasons": [
+        "Low job satisfaction",
+        "Below-median income"
+      ],
+      "Recommendation": "Schedule a retention discussion"
+    },
+    {
+      "EmployeeNumber": 566,
+      "JobRole": "Human Resources",
+      "Department": "Human Resources",
+      "OverTime": "No",
+      "JobSatisfaction": 4,
+      "WorkLifeBalance": 4,
+      "MonthlyIncome": 2564,
+      "AttritionRisk": 0.9630479736076776,
+      "RiskRank": 35,
+      "RiskReasons": [
+        "Below-median income"
+      ],
+      "Recommendation": "Review compensation and career progression"
+    },
+    {
+      "EmployeeNumber": 55,
+      "JobRole": "Laboratory Technician",
+      "Department": "Research & Development",
+      "OverTime": "No",
+      "JobSatisfaction": 3,
+      "WorkLifeBalance": 2,
+      "MonthlyIncome": 2293,
+      "AttritionRisk": 0.9622466514236991,
+      "RiskRank": 36,
+      "RiskReasons": [
+        "Poor work-life balance",
+        "Below-median income"
+      ],
+      "Recommendation": "Offer flexible scheduling and workload review"
+    },
+    {
+      "EmployeeNumber": 1714,
+      "JobRole": "Human Resources",
+      "Department": "Human Resources",
+      "OverTime": "No",
+      "JobSatisfaction": 3,
+      "WorkLifeBalance": 3,
+      "MonthlyIncome": 1555,
+      "AttritionRisk": 0.9609678423759118,
+      "RiskRank": 37,
+      "RiskReasons": [
+        "Below-median income"
+      ],
+      "Recommendation": "Review compensation and career progression"
+    },
+    {
+      "EmployeeNumber": 918,
+      "JobRole": "Laboratory Technician",
+      "Department": "Research & Development",
+      "OverTime": "Yes",
+      "JobSatisfaction": 4,
+      "WorkLifeBalance": 2,
+      "MonthlyIncome": 2380,
+      "AttritionRisk": 0.9609431483250283,
+      "RiskRank": 38,
+      "RiskReasons": [
+        "Frequent overtime",
+        "Poor work-life balance",
+        "Below-median income"
+      ],
+      "Recommendation": "Reduce overtime and review workload allocation"
+    },
+    {
+      "EmployeeNumber": 1107,
+      "JobRole": "Laboratory Technician",
+      "Department": "Research & Development",
+      "OverTime": "No",
+      "JobSatisfaction": 3,
+      "WorkLifeBalance": 2,
+      "MonthlyIncome": 2377,
+      "AttritionRisk": 0.9608304452224022,
+      "RiskRank": 39,
+      "RiskReasons": [
+        "Poor work-life balance",
+        "Below-median income"
+      ],
+      "Recommendation": "Offer flexible scheduling and workload review"
+    },
+    {
+      "EmployeeNumber": 1758,
+      "JobRole": "Sales Executive",
+      "Department": "Sales",
+      "OverTime": "Yes",
+      "JobSatisfaction": 1,
+      "WorkLifeBalance": 2,
+      "MonthlyIncome": 8564,
+      "AttritionRisk": 0.960828480769062,
+      "RiskRank": 40,
+      "RiskReasons": [
+        "Frequent overtime",
+        "Low job satisfaction",
+        "Poor work-life balance"
+      ],
+      "Recommendation": "Reduce overtime and review workload allocation"
+    },
+    {
+      "EmployeeNumber": 1968,
+      "JobRole": "Sales Executive",
+      "Department": "Sales",
+      "OverTime": "Yes",
+      "JobSatisfaction": 1,
+      "WorkLifeBalance": 2,
+      "MonthlyIncome": 10448,
+      "AttritionRisk": 0.9603981359222757,
+      "RiskRank": 41,
+      "RiskReasons": [
+        "Frequent overtime",
+        "Low job satisfaction",
+        "Poor work-life balance"
+      ],
+      "Recommendation": "Reduce overtime and review workload allocation"
+    },
+    {
+      "EmployeeNumber": 1939,
+      "JobRole": "Research Scientist",
+      "Department": "Research & Development",
+      "OverTime": "Yes",
+      "JobSatisfaction": 3,
+      "WorkLifeBalance": 3,
+      "MonthlyIncome": 2432,
+      "AttritionRisk": 0.9594562005793913,
+      "RiskRank": 42,
+      "RiskReasons": [
+        "Frequent overtime",
+        "Below-median income"
+      ],
+      "Recommendation": "Reduce overtime and review workload allocation"
+    },
+    {
+      "EmployeeNumber": 1111,
+      "JobRole": "Laboratory Technician",
+      "Department": "Research & Development",
+      "OverTime": "No",
+      "JobSatisfaction": 2,
+      "WorkLifeBalance": 3,
+      "MonthlyIncome": 2596,
+      "AttritionRisk": 0.9590233807402548,
+      "RiskRank": 43,
+      "RiskReasons": [
+        "Low job satisfaction",
+        "Below-median income"
+      ],
+      "Recommendation": "Schedule a retention discussion"
+    },
+    {
+      "EmployeeNumber": 494,
+      "JobRole": "Sales Representative",
+      "Department": "Sales",
+      "OverTime": "No",
+      "JobSatisfaction": 2,
+      "WorkLifeBalance": 3,
+      "MonthlyIncome": 2716,
+      "AttritionRisk": 0.958168212961809,
+      "RiskRank": 44,
+      "RiskReasons": [
+        "Low job satisfaction",
+        "Below-median income"
+      ],
+      "Recommendation": "Schedule a retention discussion"
+    },
+    {
+      "EmployeeNumber": 1767,
+      "JobRole": "Research Scientist",
+      "Department": "Research & Development",
+      "OverTime": "Yes",
+      "JobSatisfaction": 3,
+      "WorkLifeBalance": 3,
+      "MonthlyIncome": 2437,
+      "AttritionRisk": 0.9576739754957376,
+      "RiskRank": 45,
+      "RiskReasons": [
+        "Frequent overtime",
+        "Below-median income"
+      ],
+      "Recommendation": "Reduce overtime and review workload allocation"
+    },
+    {
+      "EmployeeNumber": 1649,
+      "JobRole": "Laboratory Technician",
+      "Department": "Research & Development",
+      "OverTime": "Yes",
+      "JobSatisfaction": 1,
+      "WorkLifeBalance": 1,
+      "MonthlyIncome": 2166,
+      "AttritionRisk": 0.9563056753272946,
+      "RiskRank": 46,
+      "RiskReasons": [
+        "Frequent overtime",
+        "Low job satisfaction",
+        "Poor work-life balance"
+      ],
+      "Recommendation": "Reduce overtime and review workload allocation"
+    },
+    {
+      "EmployeeNumber": 454,
+      "JobRole": "Laboratory Technician",
+      "Department": "Research & Development",
+      "OverTime": "Yes",
+      "JobSatisfaction": 1,
+      "WorkLifeBalance": 2,
+      "MonthlyIncome": 2119,
+      "AttritionRisk": 0.9553706993327844,
+      "RiskRank": 47,
+      "RiskReasons": [
+        "Frequent overtime",
+        "Low job satisfaction",
+        "Poor work-life balance"
+      ],
+      "Recommendation": "Reduce overtime and review workload allocation"
+    },
+    {
+      "EmployeeNumber": 1458,
+      "JobRole": "Laboratory Technician",
+      "Department": "Research & Development",
+      "OverTime": "Yes",
+      "JobSatisfaction": 1,
+      "WorkLifeBalance": 4,
+      "MonthlyIncome": 3646,
+      "AttritionRisk": 0.9552728983757455,
+      "RiskRank": 48,
+      "RiskReasons": [
+        "Frequent overtime",
+        "Low job satisfaction",
+        "Below-median income"
+      ],
+      "Recommendation": "Reduce overtime and review workload allocation"
+    },
+    {
+      "EmployeeNumber": 960,
+      "JobRole": "Laboratory Technician",
+      "Department": "Research & Development",
+      "OverTime": "No",
+      "JobSatisfaction": 1,
+      "WorkLifeBalance": 3,
+      "MonthlyIncome": 2973,
+      "AttritionRisk": 0.954085059560233,
+      "RiskRank": 49,
+      "RiskReasons": [
+        "Low job satisfaction",
+        "Below-median income"
+      ],
+      "Recommendation": "Schedule a retention discussion"
+    },
+    {
+      "EmployeeNumber": 19,
+      "JobRole": "Laboratory Technician",
+      "Department": "Research & Development",
+      "OverTime": "Yes",
+      "JobSatisfaction": 3,
+      "WorkLifeBalance": 3,
+      "MonthlyIncome": 2028,
+      "AttritionRisk": 0.953312042512893,
+      "RiskRank": 50,
+      "RiskReasons": [
+        "Frequent overtime",
+        "Below-median income"
+      ],
+      "Recommendation": "Reduce overtime and review workload allocation"
+    }
+  ]
+}
